@@ -31,7 +31,22 @@ FROM RunningTotals
 ORDER BY Income;
 
 /*
-Summary modeling showed that about 360 clients currently meet the stated conditions in all regions, which is about 7% of the total number of clients. The task statement does not specify a threshold for the viability of the project
+Summary — income is moderately concentrated: the lower half of clients (income up to $64k)
+earns only 26% of total income, while the top 20% (income above ~$113k) earns about 40%
+and the top 10% (above ~$145k) about 23%. Median income is $64k vs. a mean of $74k:
+the distribution is right-skewed, pulled up by a small group of high earners.
+For the business this means that the income base — and the potential for credit products —
+sits in a relatively small segment. These clients should be prioritised in campaigns:
+clients with income above $100k are the ones who accept personal-loan offers,
+while below $50k there are no conversions in the last campaign.
 
-резюме -моделирование показало, что по всем регионам на текущий момент заявленным условиям удовлетворяют около 360 клиентов, что составляет около 7% от общего числа клиентов. В постановке задачи не указан порог жизнеспособности проекта
+Резюме — доходы клиентов умеренно сконцентрированы: нижняя половина клиентов
+(доход до $64 тыс.) получает лишь 26% совокупного дохода, тогда как верхние 20%
+(доход выше ~$113 тыс.) — около 40%, а верхние 10% (выше ~$145 тыс.) — около 23%.
+Медиана дохода $64 тыс. при среднем $74 тыс.: распределение скошено вправо
+за счёт небольшой группы клиентов с высоким доходом.
+Для бизнеса это значит, что доходная база, а значит и потенциал кредитных продуктов,
+сосредоточена в относительно небольшом сегменте. Именно его стоит приоритизировать
+в кампаниях: личный заём принимают клиенты с доходом выше $100 тыс., а среди клиентов
+с доходом до $50 тыс. конверсий в последней кампании не было.
 */
